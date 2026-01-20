@@ -11,6 +11,7 @@ import { SubHeading } from "./components/SubHeading";
 import { ToDoItem } from "./components/ToDoItem";
 import { ToDoList } from "./components/ToDoList";
 import { TextInput } from "./components/TextInput";
+import { Button } from "./components/Button";
 
 const todos = [
   {
@@ -85,6 +86,9 @@ function App() {
             <Dialog isOpen={showDialog} onClose={toggleDialog}>
               <form action="">
                 <TextInput placeholder="Digite o item que deseja adicionar"/>
+                <Button>
+                  Save item
+                </Button>
               </form>
             </Dialog>
             <FabButton onClick={toggleDialog}>
