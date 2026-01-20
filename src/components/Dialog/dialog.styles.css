@@ -20,3 +20,7 @@ dialog{
   border: none;
   cursor: pointer;
 }
+
+.body {
+  padding: 10px 0;
+}
